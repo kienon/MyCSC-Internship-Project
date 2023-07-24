@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>MyCSC UMS</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap Icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+        <!-- SimpleLightbox plugin CSS-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
+        <!--Font awesome-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Core theme CSS-->
+        <link href="css/styles.css" rel="stylesheet" />
+		<link rel="stylesheet" href="css/kienon.css">
+    </head>
+    <body id="page-top">
+
+        <!-- Masthead-->
+        <header>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+            <div class="container px-4 px-lg-5">
+				<!-- Logo -->
+                <a class="navbar-brand" href="#page-top"><img src="./assets/core-img/mycsc3.png" alt=""></a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto my-2 my-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="./about.php">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        </header>
+		
+		     <!-- Header section-->
+        <section class="page-section bg-primary" id="headsection">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 text-center">
+					&nbsp;
+				</div>
+                        <!--a class="btn btn-light btn-xl" href="#services">Get Started!</a-->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About-->
+        <section class="page-section bg-primary" id="search">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 text-center">
+					&nbsp;
+                        <h2 class="text-white mt-0">Your Privacy is Our Priority</h2>
+                        <hr class="divider divider-light" />
+					<div class="wrap">
+					 <div>
+					 <!-- The form -->
+	
+						<input type="search" id="ref_no" class="form-control form-control-sm" placeholder="Enter order number here..">
+						<button type="submit" id="track-btn" name="submit-search"><i class="fa fa-search"></i></button>
+						
+					</div>
+					&nbsp;
+				</div>
+                        <!--a class="btn btn-light btn-xl" href="#services">Get Started!</a-->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Services-->
+        <section class="page-section" id="services">
+		&nbsp;
+            <div class="container px-4 px-lg-5">
+			&nbsp;
+			
+                <h2 class="text-center mt-0">Our Services</h2>
+                <hr class="divider" />
+                <div class="row gx-4 gx-lg-5 justify-content-xl-center">
+                    <div class="col-lg-6 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2"><i class="bi bi-arrow-repeat fs-1 text-primary"></i></div>
+                            <h3 class="h4 mb-2">Data Recovery</h3>
+                            <p class="text-muted mb-0">A solution to recover data from damaged, corrupted or inaccessible digital storage. &hellip;</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 text-center ">
+                        <div class="mt-5">
+                            <div class="mb-2"><i class="bi bi-hdd fs-1 text-primary"></i></div>
+                            <h3 class="h4 mb-2">Data Sanitization</h3>
+                            <p class="text-muted mb-0">Secure your deletion of data from unused storage devices. &hellip;</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+		
+        <!-- Contact-->
+        <section class="page-section" id="contact">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 col-xl-6 text-center">
+                        <h2 class="mt-0">Let's Get In Touch!</h2>
+                        <hr class="divider" />
+                        <p class="text-muted mb-5">Have any questions on our services ? Send us a messages and we will get back to you as soon as possible!</p>
+                    </div>
+                </div>
+                <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
+                    <div class="col-lg-6">
+                        <form id="contactForm" enctype="multipart/form-data"
+            onsubmit="return validateContactForm()" >
+                            <!-- Name input-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="name-info" name="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
+                                <label for="name">Full name</label>
+                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                            </div>
+                            <!-- Email address input-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="email-info" type="email" name="email" placeholder="name@example.com " data-sb-validations="required,email" />
+                                <label for="email">Email address</label>
+                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                            </div>
+							<div class="form-floating mb-3">
+                                <input class="form-control" id="subject-info" type="text" name="subject" placeholder="name@example.com " data-sb-validations="required,email" />
+                                <label for="email">Email address</label>
+                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                            </div>
+                            <!-- Message input-->
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control" id="message-info" name="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
+                                <label for="message">Message</label>
+                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                            </div>
+                            <!-- Submit success message-->
+                            <!---->
+                            <!-- This is what your users will see when the form-->
+                            <!-- has successfully submitted-->
+                            <div class="d-none" id="submitSuccessMessage">
+                                <div class="text-center mb-3">
+                                    <div class="fw-bolder">Form submission successful!</div>
+                                </div>
+                            </div>
+                            <!-- Submit error message-->
+                            <!---->
+                            <!-- This is what your users will see when there is-->
+                            <!-- an error submitting the form-->
+                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+                            <!-- Submit Button-->
+                            <div class="d-grid"><button class="btn btn-primary " id="submitButton" type="submit" name="send" value="Send">Submit</button></div>
+							<div id="statusMessage"> 
+							<?php
+								if (! empty($message)) {
+								?>
+									<p class='<?php echo $type; ?>Message'><?php echo $message; ?></p>
+								<?php
+									}
+							?>
+                    </div>
+						</form>
+						
+						<!--Script For phpmailer Validate-->
+						<div>
+			
+							<script src="https://code.jquery.com/jquery-2.1.1.min.js"
+								type="text/javascript"></script>
+							<script type="text/javascript">
+								function validateContactForm() {
+									var valid = true;
+
+									$(".info").html("");
+									$(".input-field").css('border', '#e0dfdf 1px solid');
+									var name = $("#name").val();
+									var email = $("#email").val();
+									var subject = $("#subject").val();
+									var content = $("#message").val();
+									
+									if (name == "") {
+										$("#name-info").html("Required.");
+										$("#name").css('border', '#e66262 1px solid');
+										valid = false;
+									}
+									if (email == "") {
+										$("#email-info").html("Required.");
+										$("#email").css('border', '#e66262 1px solid');
+										valid = false;
+									}
+									if (!email.match(/^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/))
+									{
+										$("#email-info").html("Invalid Email Address.");
+										$("#email").css('border', '#e66262 1px solid');
+										valid = false;
+									}
+
+									if (subject == "") {
+										$("#subject-info").html("Required.");
+										$("#subject").css('border', '#e66262 1px solid');
+										valid = false;
+									}  
+									if (content == "") {
+										$("#message-info").html("Required.");
+										$("#message").css('border', '#e66262 1px solid');
+										valid = false;
+									}
+									return valid;
+								}
+						</script>
+						</div>
+						<div>
+						</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+		
+        <!-- Footer-->
+		<footer class="footer">
+  	 <div class="container">
+  	 	<div class="row">
+  	 		<div class="footer-col">
+  	 			<h4>Our Services</h4>
+  	 			<ul>
+  	 				<li><a href="datarecovery">Data Recovery</a></li>
+  	 				<li><a href="datasanitize">Data Sanitization</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>About US</h4>
+  	 			<ul>
+  	 				<li><a href="faq">FAQ</a></li>
+  	 				<li><a href="privacypolicy">Privacy Policy</a></li>
+  	 				<li><a href="disclaimer">Disclaimer</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>Opening Times</h4>
+                <p style="color:white;">Weekdays<br> 9:00am - 4:00pm</p>
+                <p style="color:white;">Recess Mon-Thus<br> 1:00pm - 2:00pm</p>
+                <p style="color:white;">Recess Fri<br> 11:30am - 2:00pm</p>
+  	 		</div>
+            <div class="footer-col">
+                <h4>Location</h4>            
+			    <div class="map-responsive">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.70705282989!2d116.11965601532545!3d6.034880330323392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x323b6b411bb1f203%3A0xd0231ba91f9917c2!2sMy%20Cyber%20Security%20Clinic%20-%20UMS%20(MyCSC)!5e0!3m2!1sen!2smy!4v1642386561947!5m2!1sen!2smy" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+				</div>
+			</div>
+        </div>
+		<div class="container px-4 px-lg-5">
+		<div class="small text-left text-muted">
+		<small>
+								MyCSC UMS &copy;<script>document.write(new Date().getFullYear());</script>&nbsp;&nbsp;&nbsp;&nbsp;
+								<a class="text-white" href="./indexmin.php">Staff Portal</a>
+		</small>
+		</div>
+		</div>
+  </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- SimpleLightbox plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>
